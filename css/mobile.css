@@ -1,0 +1,41 @@
+/* MOBILE */
+
+header{
+    color: var(--cor5);
+}
+nav{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    height: calc(100vh - 50px);
+    width: 100vw;
+    transition: .2s;
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+nav ul li a{
+    color: var(--cor6) !important;
+    font-size: 1.7rem;
+}
+nav ul li a:hover{
+    color: var(--cor4);
+    text-decoration: underline;
+}
+
+.icons_menu{
+    grid-column: 2/5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* lar */
